@@ -1,54 +1,53 @@
 $schema: vscode://schemas/color-theme
-name: Miss Dracula
+name: Miss Dracula Vacations in the Tropics
 author: Anel Guel with original contributions from Zeno Rocha
 maintainers:
   - Anel Guel <anelguel@gmail.com>
 semanticClass: theme.dracula
 semanticHighlighting: true
 dracula:
-  base:
-    - &BG        '#0F0B1A'
-    - &FG        '#F8F8F2'
-    - &SELECTION '#44475A'
-    - &COMMENT   '#6272A4'
-    - &CYAN      '#8BE9FD'
-    - &GREEN     '#50FA7B'
-    - &ORANGE    '#FFB86C'
-    - &PINK      '#FF79C6'
-    - &PURPLE    '#BD93F9'
-    - &RED       '#FF5555'
-    - &YELLOW    '#F1FA8C'
+   - &BG         '#201D24' #background color
+    - &FG        '#F8F8F2' #COLOR7
+    - &SELECTION '#44475A' #LineHighlight, TAB_DROP_BG
+    - &COMMENT   '#6272A4' #COLOR8
+    - &CYAN      '#1BAFC0' #COLOR6
+    - &GREEN     '#17AF1F' #COLOR2
+    - &ORANGE    '#FBB861'
+    - &PINK      '#EB048F' #COLOR5
+    - &PURPLE    '#BD93F9' #COLOR4
+    - &RED       '#FF5555' #COLOR1
+    - &YELLOW    '#F1FA8C' #COLOR3
   ansi:
-    - &COLOR0        '#21222C'
-    - &COLOR1        '#FF5555'
-    - &COLOR2        '#50FA7B'
-    - &COLOR3        '#F1FA8C'
-    - &COLOR4        '#BD93F9'
-    - &COLOR5        '#FF79C6'
-    - &COLOR6        '#8BE9FD'
-    - &COLOR7        '#F8F8F2'
-    - &COLOR8        '#6272A4'
-    - &COLOR9        '#FF6E6E'
-    - &COLOR10       '#69FF94'
-    - &COLOR11       '#FFFFA5'
-    - &COLOR12       '#D6ACFF'
-    - &COLOR13       '#FF92DF'
-    - &COLOR14       '#A4FFFF'
-    - &COLOR15       '#FFFFFF'
+    - &COLOR0        '#2D2833' #BGDark, menu module background
+    - &COLOR1        '#FF5555' #RED
+    - &COLOR2        '#17AF1F' #GREEN
+    - &COLOR3        '#F1FA8C' #YELLOW
+    - &COLOR4        '#BD93F9' #PURPLE
+    - &COLOR5        '#EB048F' #PINK
+    - &COLOR6        '#1BAFC0' #CYAN
+    - &COLOR7        '#F8F8F2' #FG
+    - &COLOR8        '#6272A4' #COMMENT
+    - &COLOR9        '#FF6E6E' #Lighter #RED
+    - &COLOR10       '#69FF94' #Lighter #GREEN
+    - &COLOR11       '#FFFFA5' #Lightr #YELLOW
+    - &COLOR12       '#D6ACFF' #Lighter #PURPLE
+    - &COLOR13       '#FF92DF' #Lighter #PINK
+    - &COLOR14       '#A4FFFF' #Lighter #CYAN
+    - &COLOR15       '#FFFFFF' #WHITE, NonText
   brightOther:
     # Temporary (awaiting fix)
     - &TEMP_QUOTES          '#E9F284'
     - &TEMP_PROPERTY_QUOTES '#8BE9FE'
   other:
-    - &LineHighlight '#44475A75'
-    - &NonText       '#FFFFFF1A'
+    - &LineHighlight '#44475A75' #46% transparency
+    - &NonText       '#FFFFFF1A' #10% transparency
     - &WHITE         '#FFFFFF'
-    - &TAB_DROP_BG   '#44475A70'
+    - &TAB_DROP_BG   '#44475A70' #44% transparency, LineHighlight, SELECTION
     # UI Variants
     - &BGLighter     '#424450'
-    - &BGLight       '#343746' # HSV (230   , 25.71, 27.45)
-    - &BGDark        '#21222C' # HSV (234.55, 25   , 17.25)
-    - &BGDarker      '#191A21' # HSV (234.55, 25   , 13   )
+    - &BGLight       '#28242E' #Left module with notification icons background
+    - &BGDark        '#2D2833' #COLOR0
+    - &BGDarker      '#191A21'
 
 # User Interface (more info: https://code.visualstudio.com/docs/getstarted/theme-color-reference)
 colors:
