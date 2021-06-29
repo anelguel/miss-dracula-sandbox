@@ -6,39 +6,39 @@ maintainers:
 semanticClass: theme.dracula
 semanticHighlighting: true
 dracula:
-    - &BG        'red' #201D24' #background color
+   - &BG         red #'#201D24' #background color
     - &FG        '#F8F8F2' #COLOR7
     - &SELECTION '#44475A' #LineHighlight, TAB_DROP_BG
     - &COMMENT   '#6272A4' #COLOR8
-    - &CYAN      '#23899F' #COLOR6
-    - &GREEN     '#6DD694' #COLOR2
-    - &ORANGE    '#FA9138'
-    - &PINK      '#E82696' #COLOR5
-    - &PURPLE    '#8760CF' #COLOR4
-    - &RED       '#E33535' #COLOR1
-    - &YELLOW    '#F9F871' #COLOR3
-ansi:
+    - &CYAN      '#1BAFC0' #COLOR6
+    - &GREEN     '#17AF1F' #COLOR2
+    - &ORANGE    '#FBB861'
+    - &PINK      '#EB048F' #COLOR5
+    - &PURPLE    '#BD93F9' #COLOR4
+    - &RED       '#FF5555' #COLOR1
+    - &YELLOW    '#F1FA8C' #COLOR3
+  ansi:
     - &COLOR0        '#2D2833' #BGDark, menu module background
-    - &COLOR1        '#E33535' #RED
-    - &COLOR2        '#6DD694' #GREEN
-    - &COLOR3        '#F9F871' #YELLOW
-    - &COLOR4        '#8760CF' #PURPLE
-    - &COLOR5        '#E82696' #PINK
-    - &COLOR6        '#23899F' #CYAN
+    - &COLOR1        '#FF5555' #RED
+    - &COLOR2        '#17AF1F' #GREEN
+    - &COLOR3        '#F1FA8C' #YELLOW
+    - &COLOR4        '#BD93F9' #PURPLE
+    - &COLOR5        '#EB048F' #PINK
+    - &COLOR6        '#1BAFC0' #CYAN
     - &COLOR7        '#F8F8F2' #FG
     - &COLOR8        '#6272A4' #COMMENT
-    - &COLOR9        '#E56868' #Lighter #RED
-    - &COLOR10       '#D3FADE' #Lighter #GREEN
+    - &COLOR9        '#FF6E6E' #Lighter #RED
+    - &COLOR10       '#69FF94' #Lighter #GREEN
     - &COLOR11       '#FFFFA5' #Lightr #YELLOW
-    - &COLOR12       '#B6A0D5' #Lighter #PURPLE
-    - &COLOR13       '#E39FBC' #Lighter #PINK
-    - &COLOR14       '#65BFD6' #Lighter #CYAN
+    - &COLOR12       '#D6ACFF' #Lighter #PURPLE
+    - &COLOR13       '#FF92DF' #Lighter #PINK
+    - &COLOR14       '#A4FFFF' #Lighter #CYAN
     - &COLOR15       '#FFFFFF' #WHITE, NonText
-brightOther:
+  brightOther:
     # Temporary (awaiting fix)
     - &TEMP_QUOTES          '#E9F284'
     - &TEMP_PROPERTY_QUOTES '#8BE9FE'
-other:
+  other:
     - &LineHighlight '#44475A75' #46% transparency
     - &NonText       '#FFFFFF1A' #10% transparency
     - &WHITE         '#FFFFFF'
