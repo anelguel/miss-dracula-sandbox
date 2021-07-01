@@ -6,6 +6,16 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "name": "Debug build",
+            "program": "${workspaceFolder}/scripts/build.js",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "pwa-node"
+        },
+
+        {
             "name": "Launch Theme",
             "type": "extensionHost",
             "request": "launch",
@@ -24,6 +34,7 @@
             "runtimeExecutable": "${execPath}",
             "preLaunchTask": "npm: build",
             "args": ["--extensionDevelopmentPath=${workspaceFolder}", "${file}"]
-        }
+        },
+
     ]
 }
