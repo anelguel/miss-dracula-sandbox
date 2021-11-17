@@ -1,10 +1,24 @@
-# Miss Dracula
+# Miss Dracula for [Visual Studio Code](http://code.visualstudio.com)
 
-> Miss Dracula is a fork of [Dracula Official](https://github.com/dracula/visual-studio-code), and consists of a lighter theme with purple and pink hues.
+A fork of [Dracula Official](https://github.com/dracula/visual-studio-code), but with a twist of your favorite lipstick.
+
+<!-- TODO: screenshot image here -->
 
 ## Install
 
-All instructions can be found at [draculatheme.com/visual-studio-code](https://draculatheme.com/visual-studio-code).
+1. Go to `View -> Command Palette` or press `Ctrl+Shift+P`
+2. Then enter `Install Extension`
+3. Write `miss-dracula`
+4. Select it or press Enter to install
+
+## Team
+
+[Anel Guel](https://github.com/anelguel) maintains Miss Dracula, a fork of Dracula Offical.
+
+Dracula Offical is maintained by the following person(s) and a bunch of [awesome contributors](https://github.com/dracula/visual-studio-code/graphs/contributors).
+
+A special shout out to [Derek Sifford](https://github.com/dsifford) for his leadership on this project.
+
 
 ## Contributing
 
